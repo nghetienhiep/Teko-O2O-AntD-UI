@@ -1,10 +1,8 @@
 import React from 'react'
-
-import { ExampleComponent } from 'teko-o2o-ant-design-ui'
-import 'teko-o2o-ant-design-ui/dist/index.css'
+import { O2OButton } from '../../'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <O2OButton />
 }
 
 export default App

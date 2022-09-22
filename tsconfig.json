@@ -15,8 +15,22 @@
     "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "rootDir": "src",
+    "baseUrl": "src/",
+    "paths": {
+      "components": ["src/components/*"]
+    }
   },
   "include": ["src"],
-  "exclude": ["node_modules", "dist", "example"]
+  "exclude": [
+    "node_modules",
+    "build",
+    "dist",
+    "scripts",
+    "acceptance-tests",
+    "webpack",
+    "jest"
+  ],
+  "types": ["typePatches"]
 }
